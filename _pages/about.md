@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Biography"
+title: "<font color="red">Biography</font>"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-
+<font color="red">This text is red!</font>
 Sevinc is a PhD candidate (finalizing her dissertation) specializing in virtual reality at the Visual Computing Institute, RWTH Aachen University, Germany. 
 Her research focuses on developing innovative tools for creating virtual environments while immersed, 
 including 3D interaction techniques and user interface design for scene authoring. 
