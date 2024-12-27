@@ -1,13 +1,18 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Biography"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+
+Sevinc is a PhD candidate (finalizing her dissertation) specializing in virtual reality at the Visual Computing Institute, RWTH Aachen University, Germany. 
+Her research focuses on developing innovative tools for creating virtual environments while immersed, 
+including 3D interaction techniques and user interface design for scene authoring. 
+These tools support a variety of applications, ranging from artistic expression to automotive testing and educational platforms, with an emphasis on creating effective and easy-to-use immersive workflows for diverse user groups. With a solid background in virtual and augmented reality, Sevinc specializes in designing user-centered solutions for complex design challenges and conducting user studies to evaluate their effectiveness. 
+Over the past six years, she has contributed to various projects and collaborated with designers, artists, educators, and engineers on both state- and industry-funded initiatives.
 
 A data-driven personal website
 ======
