@@ -17,4 +17,7 @@ These approaches support a variety of applications ranging from artistic express
 With a strong background in virtual and augmented reality, I specialize in creating user-centered 3D interface designs and evaluating their effectiveness through user studies.
 Over the past six years, I have contributed to various projects and collaborated with designers, artists, educators, and engineers on both state- and industry-funded initiatives.
 
+[<h1>Publications</h1>](https://vr.rwth-aachen.de/person/24/) 
+
+
 
