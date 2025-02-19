@@ -4,5 +4,6 @@ excerpt: "Fluid Sketching as a novel medium for creating 3D fluid artwork in imm
 collection: portfolio
 ---
 
-[![Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/XMHs76Dlf40)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" 
+frameborder="0" allowfullscreen></iframe>
 
