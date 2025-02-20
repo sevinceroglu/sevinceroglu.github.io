@@ -17,8 +17,9 @@ collection: portfolio
 
   .video-wrapper img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Prevent cropping */
+    display: block;
   }
 
   .play-button {
