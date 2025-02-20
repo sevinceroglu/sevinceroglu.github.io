@@ -44,7 +44,7 @@ author_profile: true
             padding-bottom: 56.25%; /* 16:9 aspect ratio */
             margin-bottom: var(--margin-medium); /* Dynamic bottom margin */
             position: relative;
-            background-color: #f0f0f0; /* Background color for better visibility */
+            background-color: #000000; /* Background color is black */
         }
         .video-wrapper iframe, 
         .video-wrapper img {
@@ -104,22 +104,9 @@ author_profile: true
             }
         }
     </style>
-     <script>
+    <script>
         function playVideo(videoId, wrapperElement) {
             wrapperElement.innerHTML = '<iframe src="https://www.youtube.com/embed/' + videoId + '?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-        }
-
-        function adjustMargins() {
-            var videoWrappers = document.querySelectorAll('.video-wrapper');
-            videoWrappers.forEach(function(wrapper) {
-                var img = wrapper.querySelector('img');
-                if (img) {
-                    img.onload = function() {
-                        var height = img.clientHeight;
-                        wrapper.style.marginBottom = height * 0.1 + 'px'; // Adjust margin as 10% of image height
-                    };
-                }
-            });
         }
 
         document.addEventListener('DOMContentLoaded', function() {
@@ -130,7 +117,6 @@ author_profile: true
                     playVideo(videoId, this);
                 });
             });
-            adjustMargins();
         });
     </script>
 </head>
