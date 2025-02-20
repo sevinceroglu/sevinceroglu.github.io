@@ -15,7 +15,8 @@ main:
 #    url: /teaching/    
     
   - title: "Portfolio"
-    url: /portfolio/
+    url: /portfolioCustom/
+#    url: /portfolio/
         
 #  - title: "Blog Posts"
 #    url: /year-archive/
