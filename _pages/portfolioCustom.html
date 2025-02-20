@@ -115,6 +115,7 @@ author_profile: true
             var videoWrappers = document.querySelectorAll('.video-wrapper');
             videoWrappers.forEach(function(wrapper) {
                 wrapper.addEventListener('click', function() {
+                    if (this.getAttribute('data-no-video') !== null) return;
                     var videoId = this.getAttribute('data-video-id');
                     playVideo(videoId, this);
                 });
@@ -170,7 +171,7 @@ author_profile: true
          <div class="project">
             <h2>VRScenarioBuilder: Free-Hand Immersive Authoring Tool for Scenario-based Testing of Automated Vehicles</h2>
             <p>An immersive authoring tool that enables engineers to create and modify dynamic driving scenarios directly in VR using free-hand interactions. We provide a natural user interface that enables users to create scenarios by using drag-and-drop building blocks. </p>
-            <div class="video-wrapper">
+            <div class="video-wrapper" data-no-video>
                 <img src="/images/VRScenarioBuilderTeaser.png" alt="Teaser Image for Project 5">
             </div>
             <a href="https://vr.rwth-aachen.de/publication/02256/" target="_blank" class="link">Learn more about this project</a>
