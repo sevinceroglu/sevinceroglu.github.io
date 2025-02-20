@@ -31,13 +31,13 @@ author_profile: true
             margin: 10px 0;
         }
         .project p {
-            margin: 10px 0 20px;
+            margin: 10px 0 10px;
         }
         .video-wrapper {
             position: relative;
             padding-bottom: 56.25%; /* 16:9 */
             height: 0;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         .video-wrapper iframe, .video-wrapper img {
             position: absolute;
@@ -85,11 +85,20 @@ author_profile: true
             text-decoration: none;
         }
     </style>
-    <script>
-        function playVideo(videoId, imgElement) {
-            var videoWrapper = imgElement.parentElement;
-            videoWrapper.innerHTML = '<iframe src="https://www.youtube.com/embed/' + videoId + '?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+     <script>
+        function playVideo(videoId, wrapperElement) {
+            wrapperElement.innerHTML = '<iframe src="https://www.youtube.com/embed/' + videoId + '?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
         }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var videoWrappers = document.querySelectorAll('.video-wrapper');
+            videoWrappers.forEach(function(wrapper) {
+                wrapper.addEventListener('click', function() {
+                    var videoId = this.getAttribute('data-video-id');
+                    playVideo(videoId, this);
+                });
+            });
+        });
     </script>
 </head>
 <body>
