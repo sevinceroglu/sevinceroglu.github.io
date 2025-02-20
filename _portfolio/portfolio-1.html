@@ -4,7 +4,66 @@ excerpt: "Immersive authoring tool for artistic creation in VR. It enables the e
 collection: portfolio
 ---
 
-<iframe width="1048" height="590" src="https://www.youtube.com/embed/ooQEhXffcEk" title="Rilievo: Artistic Scene Authoring via Interactive Height Map Extrusion in VR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+<style>
+  .video-wrapper {
+    position: relative;
+    width: 1048px;
+    height: 590px;
+    cursor: pointer;
+  }
+
+  .video-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+</style>
+
+<div class="video-wrapper" onclick="loadVideo()">
+  <img id="thumbnail" src="/images/Rilievo Teaser.png" alt="Teaser Image">
+  <button class="play-button">▶</button>
+</div>
+
+<div id="video-container" style="display: none;">
+  <iframe width="1048" height="590" 
+          src="https://www.youtube.com/embed/ooQEhXffcEk?autoplay=1" 
+          title="Rilievo: Artistic Scene Authoring via Interactive Height Map Extrusion in VR"
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+  </iframe>
+</div>
+
+<script>
+  function loadVideo() {
+    document.querySelector(".video-wrapper").style.display = "none";
+    document.getElementById("video-container").style.display = "block";
+  }
+</script>
+
+
+
 
 You can find the article <a href="https://vr.rwth-aachen.de/publication/02190/" target="_blank">here</a>
 
