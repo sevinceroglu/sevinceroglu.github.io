@@ -15,7 +15,7 @@ I am an experienced researcher and developer with a strong passion for creating 
 My research focuses on developing innovative approaches for creating virtual environments while immersed, including 3D interaction techniques and user interface design for scene authoring. 
 These approaches support a variety of applications ranging from artistic expression to automotive testing and educational platforms.
 With a strong background in virtual and augmented reality, I specialize in creating user-centered 3D interface designs and evaluating their effectiveness through user studies.
-Over the past six years, I have contributed to various projects and collaborated with designers, artists, educators, and engineers on both state- and industry-funded initiatives.
+Over the past eight years, I have contributed to various projects and collaborated with designers, artists, educators, and engineers on both state- and industry-funded initiatives.
 
 <!--[Publications](https://vr.rwth-aachen.de/person/24/)-->
 
